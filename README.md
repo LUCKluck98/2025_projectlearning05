@@ -58,11 +58,6 @@ private val flowerModel = FlowerModel.newBuilder(ctx)
 - 实时相机预览区域
 - 花卉识别结果列表，显示名称和置信度
 - 简洁的UI设计，聚焦于核心功能
+![7de233a56744af346b03f5b93ac6230f](https://github.com/user-attachments/assets/33bfc39c-c51f-4c49-baae-bcc511a58d73)
 
-### 扩展建议
-1. **增加更多花卉类别**：可以使用TensorFlow Lite Model Maker训练包含更多花卉种类的模型
-2. **添加离线存储**：保存识别历史记录
-3. **实现分享功能**：允许用户分享识别结果
-4. **添加花卉百科信息**：点击识别结果显示花卉详细信息
 
-这个应用展示了如何在Android设备上部署轻量级深度学习模型，为用户提供实时的图像识别功能。通过TensorFlow Lite的优化，模型可以在资源有限的移动设备上高效运行，同时保持较高的识别准确率。
